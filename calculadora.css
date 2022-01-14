@@ -1,0 +1,81 @@
+{
+    margin: 0;
+    padding: 0;
+}
+
+.fundo {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.calculadora {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    trasnform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.botao {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(31,31,31);
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.botao:hover {
+    background-color: black;
+}
+
+.botaoIgual {
+    width :50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: orange;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.botaoIgual:hover {
+    background-color: orange;
+}
+
+.botaoClear {
+    width :50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: red;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.botaoClear:hover {
+    background-color: red;
+}
+
+#resultado{
+    background-color: white;
+    width: 207px;
+    height: 30px;
+    margin: 5px; 
+    border-top: 5px solid rgb(146, 144, 144);
+    border-right: 5px solid rgb(146, 144, 144);
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    padding: 5px;
+    border-radius: 5px;
+}
